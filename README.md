@@ -5,7 +5,7 @@ This app will retrieve and show avalabile Crypto currency List and each specific
 
 ## Technologies
 
-* Android Studio Version: Android Studio Chipmunk | 2021.3.1 Patch 1
+* Android Studio Version: Android Studio Dolphin | 2021.3.1 Patch 1
 * Android Archiecture: MVVM
 * Observables : Kotlin Flow
 * Composable state management: ViewModel
