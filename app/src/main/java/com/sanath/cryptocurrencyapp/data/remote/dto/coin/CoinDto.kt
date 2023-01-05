@@ -1,4 +1,4 @@
-package com.sanath.cryptocurrencyapp.data.remote.dto
+package com.sanath.cryptocurrencyapp.data.remote.dto.coin
 
 import com.google.gson.annotations.SerializedName
 import com.sanath.cryptocurrencyapp.domain.model.Coin
