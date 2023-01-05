@@ -1,6 +1,6 @@
 package com.sanath.cryptocurrencyapp.data.remote
 
-import com.sanath.cryptocurrencyapp.data.remote.dto.CoinDto
+import com.sanath.cryptocurrencyapp.data.remote.dto.coin.CoinDto
 import com.sanath.cryptocurrencyapp.data.remote.dto.coin_detail.CoinDetailDto
 import retrofit2.http.GET
 import retrofit2.http.Path
