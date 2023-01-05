@@ -1,6 +1,5 @@
 package com.sanath.cryptocurrencyapp.presentation.coin_detail
 
-import com.sanath.cryptocurrencyapp.domain.model.Coin
 import com.sanath.cryptocurrencyapp.domain.model.CoinDetail
 
 data class CoinDetailState(

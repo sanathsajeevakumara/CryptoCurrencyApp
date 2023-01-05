@@ -9,7 +9,6 @@ import androidx.lifecycle.viewModelScope
 import com.sanath.cryptocurrencyapp.common.Constants.PARAM_COIN_ID
 import com.sanath.cryptocurrencyapp.common.Resource
 import com.sanath.cryptocurrencyapp.domain.use_case.get_coin.GetCoinUseCase
-import com.sanath.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

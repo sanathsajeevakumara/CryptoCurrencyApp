@@ -14,6 +14,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.sanath.cryptocurrencyapp.presentation.coin_detail.CoinDetailScreen
 import com.sanath.cryptocurrencyapp.presentation.coin_list.CoinListScreen
 import com.sanath.cryptocurrencyapp.ui.theme.CryptoCurrencyAppTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -38,6 +39,11 @@ class MainActivity : ComponentActivity() {
                             route = Screen.CoinListScreen.route
                         ) {
                             CoinListScreen(navController = navController)
+                        }
+                        composable(
+                            route = Screen.CoinDetailScreen.route + "/{coinId}"
+                        ) {
+                            CoinDetailScreen()
                         }
                     }
                 }
